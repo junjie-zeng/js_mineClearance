@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>原生javascript扫雷</title>
+    <link rel="stylesheet" type="text/css" href="./mine.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="btn" id ='btn'>开始游戏</div>
+        <div class="box" id = 'box'></div>
+        <div class = 'flagBox' id="flagBox">
+            当前剩余雷数:
+            <span id = 'score'>10</span>
+        </div>
+
+        <div class="alertBox" id = 'alertBox'>
+            <div class = 'alert'>
+                <div  class = 'alertMsg' id="alertMsg">
+                    成功
+                </div>
+                <div class="close" id = "close">x</div>
+            </div>
+
+        </div>
+    </div>
+    <script src="./mine.js"></script>
+</body>
+</html>
